@@ -1,0 +1,17 @@
+TYPE OF KEYLOGGER: Software-Based
+DESCRIPTION:
+This software keylogger is designed to run on a host machine and log keystrokes for educational and research purposes. It demonstrates how user input can be captured via software and explores methods of cross-platform deployment.
+
+The initial implementation is written in Python, but the core learning objective is to extend this concept into other programming languages to enhance performance, portability, and stealth across various environments.
+
+DEPLOYMENT METHODS:
+1. Spoofed Webpage Delivery
+
+The first method involves embedding or disguising the keylogger within a spoofed webpage. This technique simulates how attackers may leverage social engineering or drive-by downloads to distribute malware.
+
+2. USB-Based Auto-Execution
+
+The second method simulates autorun-style malware delivery via a USB device. This method demonstrates how attackers may exploit physical access or baiting tactics. A Makefile will be used to automate the generation and packaging of the payload for deployment.
+
+Note on Ethics and Legality:
+This project is strictly for educational, ethical hacking, and research purposes only. Unauthorized deployment or use of this tool without informed consent is illegal and unethical.
